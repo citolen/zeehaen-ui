@@ -1,0 +1,110 @@
+.root {
+    display: flex;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f8fc+0,dce1ec+100 */
+    background: #f5f8fc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f5f8fc 0%, #dce1ec 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f5f8fc 0%,#dce1ec 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f5f8fc 0%,#dce1ec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f8fc', endColorstr='#dce1ec',GradientType=0 ); /* IE6-9 */
+
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px #0000004a;
+    padding: 0;
+    color: black;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.header {
+    flex: 0 0 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    color: #3e3e3e;
+    font-weight: lighter;
+}
+
+.content {
+    flex: 1;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    text-align: center;
+    color: #4c5562;
+    font-weight: lighter;
+    font-size: 27px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compass-icon {
+    width: 50px;
+    height: 50px;
+    fill: #4957ff;
+}
+
+.compass-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 16px #00000024;
+    transition: all .8s;
+}
+
+.compass-degrees {
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 16px #00000024;
+    position: relative;
+    
+}
+
+.compass {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 16px #00000024;
+    transition: all .8s;
+    position: relative;
+}
+
+.compass-card {
+    font-size: 16px;
+    font-weight: bold;
+    fill: grey;
+    text-anchor: middle;
+}
+
+.compass-card-sub {
+    font-size: 13px;
+    font-weight: normal;
+    fill: grey;
+    text-anchor: middle;
+}
+
+.compass-degree {
+    font-size: 10px;
+    fill: rgb(172, 172, 172);
+    text-anchor: middle;
+}

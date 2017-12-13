@@ -1,0 +1,46 @@
+recharts -  For charts
+react-grid-layout - To manager components disposition
+
+react
+typescript
+babel
+webpack
+less or sass ?
+react router
+react transition group? - To animate between pages
+webpack bundle-loader?
+
+
+/ -> Lunchpad
+/sensors -> Sensors App Group
+/sensors/gps -> GPS App
+/sensors/gps/:id -> GPS sensor's page
+
+/cockpit -> Cockpit App
+/cockpit/:id -> Cockpit with customized components
+
+Example:
+/cockpit/storm -> Most useful components for safety
+/cockpit/autopilot -> Monitoring components
+
+
+
+
+- Apps
+- Apps group
+
+An app can:
+- Display things through components
+- Extend the routing
+- Export components to other apps
+
+
+- Components can be exported outside of an app by being wrapped by something
+- Components need to be responsive to the grid
+
+- App group is an app
+- Lunchpad is an App group
+
+- Lunchpad defines a list of apps/apps group.
+- Apps can receive configuration parameters
+- Apps are routed

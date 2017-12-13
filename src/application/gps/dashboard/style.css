@@ -1,0 +1,6 @@
+.root {
+    margin-top: 20px;
+    flex: 1;
+    overflow-y: scroll;
+    position: relative;
+}

@@ -1,0 +1,13 @@
+@import 'fonts.gcss';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'CamphorStd';
+    height: 100vh;
+}
+
+#zeehaen-app {
+    display: flex;
+    height: 100%;
+}
